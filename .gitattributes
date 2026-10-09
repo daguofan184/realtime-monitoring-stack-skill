@@ -1,0 +1,5 @@
+# 统一用 LF。
+# 本仓库是 Windows 上编辑的，而默认 core.autocrlf 会在签出时把 LF 转成 CRLF。
+# 这会让同一份文件在不同平台产生假 diff，也让 frontmatter 的解析多一层不确定性。
+* text=auto eol=lf
+*.md text eol=lf

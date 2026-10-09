@@ -1,0 +1,16 @@
+# 本机编辑时留下的备份副本。
+# 这个仓库本身就是版本历史，不需要再存一份 *.bak。
+*.bak-*
+*.bak
+*.bak2
+
+# 编辑器 / 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# 安装到各机器时产生的链接（链接不是仓库内容，见 README）
+.dsh/
+.agents/
